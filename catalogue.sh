@@ -15,5 +15,6 @@ npm install
 dnf install mongodb-org-shell -y
 mongo --host 172.31.92.208 </app/schema/catalogue.js
 
+systemctl daemon-reload
 systemctl enable catalogue
 systemctl start catalogue

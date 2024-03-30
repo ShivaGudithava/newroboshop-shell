@@ -4,3 +4,4 @@ dnf install redis -y
 #Update listen address from 127.0.0.1 to 0.0.0.0
 systemctl enable redis
 systemctl start redis
+
